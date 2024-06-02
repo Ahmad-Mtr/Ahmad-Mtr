@@ -1,4 +1,5 @@
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/><br> I'm Ahmad Karajah</h1>
+<div align="center" ><img src="https://profile-counter.glitch.me/Ahmad-Mtr/count.svg" alt="Visitors counter"></div>
 <h3 align="center">A passionate CS Student from Jordan <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
 <div align="center">
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&background=45%2C1E1E2E%2C181825&fire=F38BA8&hide_longest_streak=true" alt="GitHub Streak" /></a>
