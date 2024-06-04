@@ -22,10 +22,9 @@
 
 <h3 align="center" style="color:#cdd6f4;">Connect with me:</h3>
 <p align="center">
-<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="ahmadmatar7549" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/youtube.svg" alt="ahmadmatar7549" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ahmad-mtr" height="30" width="40" /></a>
-<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="AhmadMtr#3611" height="30" width="40" /></a>
+<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/youtube.png" alt="ahmadmatar7549" width="60" height="60" /></a>
+<a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/leetcode.png" alt="Leetcode: @ahmad-mtr"width="60" height="60"/></a>
+<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/discord.png" alt="AhmadMtr#3611" width="60" height="60" /></a>
 </p>
 
 <h3 align="center" style="color:#cdd6f4;">Languages and Tools:</h3>
