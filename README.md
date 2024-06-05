@@ -64,6 +64,8 @@
 
 ![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=94e2d5&point=b4befe&area=true&area_color=cdd6f4)
 
+<h5 style="color:#cdd6f4;" align="right"> Profile views:</h5>
+
 <div align="right" ><img src="https://profile-counter.glitch.me/Ahmad-Mtr/count.svg" alt="Visitors counter"></div>
 
 Email: **ahmadmtr@protonmail.com**
