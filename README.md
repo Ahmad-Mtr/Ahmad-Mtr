@@ -64,6 +64,12 @@
 
 ![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=94e2d5&point=b4befe&area=true&area_color=cdd6f4)
 
+<details>
+    <summary>✨ Fancy 3d Stats</summary>
+    <br />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/profile-3d-contrib/profile-night-green.svg" />
+</details>
+
 <div align="right" ><img src="https://profile-counter.glitch.me/Ahmad-Mtr/count.svg" alt="Visitors counter"></div>
 
 Email: **ahmadmtr@protonmail.com**
