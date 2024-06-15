@@ -22,13 +22,13 @@
         "backgroundColor": "#1e1e2e",
         "foregroundColor": "#cdd6f4",
         "strongColor": "#cba6f7",
-        "weakColor": "#181825",
+        "weakColor": "#9399b2",
         "radarColor": "#89dceb",
         "growingAnimation": true,
         "duration": "10s",
         "contribColors": [
-            "#6c7086",
-            "#74c7ec",
+            "#313244",
+            "#b4befe",
             "#89dceb",
             "#94e2d5",
             "#a6e3a1"
