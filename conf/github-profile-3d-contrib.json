@@ -8,7 +8,7 @@
         "weakColor": "gray",
         "radarColor": "#04a5e5",
         "growingAnimation": true,
-        "duration": "10s",
+        "duration": "8s",
         "contribColors": [
             "#efefef",
             "#7287fd",
@@ -26,7 +26,7 @@
         "weakColor": "#9399b2",
         "radarColor": "#89dceb",
         "growingAnimation": true,
-        "duration": "10s",
+        "duration": "8s",
         "contribColors": [
             "#313244",
             "#b4befe",
