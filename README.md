@@ -8,7 +8,6 @@
   
 <img style="max-height: inherit; height:50px; "  src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" >
 
-
 </div>
 
 <div align="center" >
@@ -62,12 +61,19 @@
 
 <h3 style="color:#cdd6f4;" align="center"> Stats:</h3>
 
-![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=94e2d5&point=b4befe&area=true&area_color=cdd6f4)
+![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4)
 
 <details>
     <summary>✨ Fancy 3d Stats</summary>
     <br />
-    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/profile-3d-contrib/profile-night-green.svg" />
+    <p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/profile-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/profile-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/profile-3d-contrib/day.svg" />
+	</picture>
+</p>
+    <!-- <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/profile-3d-contrib/profile-night-green.svg" /> -->
 </details>
 
 <div align="right" ><img src="https://profile-counter.glitch.me/Ahmad-Mtr/count.svg" alt="Visitors counter"></div>
