@@ -8,6 +8,7 @@
         "weakColor": "gray",
         "radarColor": "#04a5e5",
         "growingAnimation": true,
+        "duration": "10s",
         "contribColors": [
             "#efefef",
             "#7287fd",
