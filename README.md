@@ -84,8 +84,7 @@
 <p align="center" >
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=dracula&hide_border=true&bg_color=eff1f5&color=4c4f69&title_color=8839ef&line=04a5e5&
-    point=7287fd&area=true&area_color=04a5e5" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=dracula&hide_border=true&bg_color=eff1f5&color=4c4f69&title_color=8839ef&line=04a5e5&%0D%0Apoint=7287fd&area=true&area_color=04a5e5" />
 	  <img alt="github profile contributions Graph"    src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4" />
 	</picture>
 </p>
