@@ -4,16 +4,34 @@
 
 <div align="center" style="display:flex;flex-direction:row;align-items:center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" alt="Typing SVG" />
-  
+<!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" alt="Typing SVG" /> -->
+
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4C4F69&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" />
+	  <img alt="Typing SVG"    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" />
+	</picture>
+</p>
+
 <img style="max-height: inherit; height:50px; "  src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" >
 
 </div>
 
-<div align="center" >
+
+
+
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&fire=F38BA8&hide_longest_streak=true" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-latte&hide_border=true&mode=weekly&card_width=475&&fire=E64553&hide_longest_streak=true" />
+	  <img alt="Github Streak"    src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&fire=F38BA8&hide_longest_streak=true" />
+	</picture>
+</p>
+<!-- <div align="center" >
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&background=45%2C1E1E2E%2C181825&fire=F38BA8&hide_longest_streak=true" alt="GitHub Streak" /></a>
 
-</div>
+</div> -->
   
 <h3 align="center" style="color:#cdd6f4;">Connect with me:</h3>
 <p align="center">
@@ -61,7 +79,16 @@
 
 <h3 style="color:#cdd6f4;" align="center"> Stats:</h3>
 
-![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4)
+<!-- ![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4) -->
+
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=dracula&hide_border=true&bg_color=eff1f5&color=4c4f69&title_color=8839ef&line=04a5e5&
+    point=7287fd&area=true&area_color=04a5e5" />
+	  <img alt="github profile contributions Graph"    src="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4" />
+	</picture>
+</p>
 
 <details>
     <summary>✨ Fancy 3d Stats</summary>
