@@ -28,11 +28,7 @@
 	  <img alt="Github Streak"    src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&fire=F38BA8&hide_longest_streak=true" />
 	</picture>
 </p>
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="" />
-	  <source media="(prefers-color-scheme: light)" srcset="" />
-	  <img alt="Github Streak"    src="" />
-	</picture>
+
 <!-- <div align="center" >
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&background=45%2C1E1E2E%2C181825&fire=F38BA8&hide_longest_streak=true" alt="GitHub Streak" /></a>
 
@@ -40,46 +36,165 @@
   
 <h3 align="center" style="color:#cdd6f4;">Connect with me:</h3>
 <p align="center">
+  <a href="https://www.youtube.com/c/ahmadmatar7549" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/youtube.png" media="(prefers-color-scheme: light)" />
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/youtube.png" media="(prefers-color-scheme: dark)" />
+      <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/youtube.png" alt="ahmadmatar7549" width="50" height="50" />
+    </picture>
+  </a>
+  <a href="https://www.leetcode.com/ahmad-mtr" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/leetcode.png" media="(prefers-color-scheme: light)" />
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/leetcode.png" media="(prefers-color-scheme: dark)" />
+      <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/leetcode.png" alt="Leetcode: @ahmad-mtr" width="50" height="50" />
+    </picture>
+  </a>
+  <a href="https://discord.com/invite/RfPGNQfG" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/discord.png" media="(prefers-color-scheme: light)" />
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/discord.png" media="(prefers-color-scheme: dark)" />
+      <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/discord.png" alt="AhmadMtr#3611" width="50" height="50" />
+    </picture>
+  </a>
+  <a href="https://t.me/AhmadMtr" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/telegram.png" media="(prefers-color-scheme: light)" />
+      <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/telegram.png" media="(prefers-color-scheme: dark)" />
+      <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" />
+    </picture>
+  </a>
+</p>
+
+
+
+
+<!-- <p align="center">
 <a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/youtube.png" alt="ahmadmatar7549" width="50" height="50" /></a>
 <a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/leetcode.png" alt="Leetcode: @ahmad-mtr"width="50" height="50"/></a>
-<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/discord.png" alt="AhmadMtr#3611" width="50" height="50" /></a>
-<a href="https://t.me/AhmadMtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" /></a>
-</p>
+<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/discord.png" alt="AhmadMtr#3611" width="50" height="50" /></a>
+<a href="https://t.me/AhmadMtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" /></a>
+</p> -->
 
 <h3 align="center" style="color:#cdd6f4;">Techstack and Others:</h3>
 <div align="center">
 <!-- Languages & Frameworks -->
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/javascript.png" alt="javascript" width="35" height="35"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/javascript.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/javascript.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/javascript.png" alt="javascript" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dart.png" alt="dart" width="35" height="35"/>
+<a href="https://dart.dev" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/dart.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/dart.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/dart.png" alt="dart" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/c.png" alt="c" width="35" height="35"/> </a>
-<a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/flutter.png" alt="flutter" width="35" height="35"/>
+<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/c.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/c.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/c.png" alt="c" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/appwrite.png" alt="Appwrite" width="35" height="35"> 
+<a href="https://flutter.dev" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/flutter.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/flutter.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/flutter.png" alt="flutter" width="35" height="35" />
+  </picture>
+</a>
+<a href="https://appwrite.io" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/appwrite.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/appwrite.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/appwrite.png" alt="Appwrite" width="35" height="35" />
+  </picture>
 </a>
 <!-- Tools -->
-<a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/azure.png" alt="azure" width="35" height="35"/> </a> 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/mysql.png" alt="mysql" width="35" height="35"/>
+<a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/azure.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/azure.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/azure.png" alt="azure" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/docker.png" alt="docker" width="35" height="35"/>
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/mysql.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/mysql.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/mysql.png" alt="mysql" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/postman.png" alt="postman" width="35" height="35"/>
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/docker.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/docker.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/docker.png" alt="docker" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/git.png" alt="git" width="35" height="35"/>
+<a href="https://postman.com" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/postman.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/postman.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/postman.png" alt="postman" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://github.com/PowerShell/PowerShell" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/powershell.png" alt="Power Shell" width="35" height="35"/> </a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/git.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/git.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/git.png" alt="git" width="35" height="35" />
+  </picture>
+</a>
+<a href="https://github.com/PowerShell/PowerShell" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/powershell.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/powershell.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/powershell.png" alt="Power Shell" width="35" height="35" />
+  </picture>
+</a>
 <!-- Editors -->
-<a href="https://vscode.dev/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/vscode.png" alt="vscode" width="35" height="35"/>
+<a href="https://vscode.dev/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/vscode.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/vscode.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/vscode.png" alt="vscode" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://neovim.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/neovim.png" alt="webpack" width="35" height="35"/>
+<a href="https://neovim.io" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/neovim.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/neovim.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/neovim.png" alt="neovim" width="35" height="35" />
+  </picture>
 </a>
 <!-- Others -->
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/figma.png" alt="figma" width="35" height="35"/>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/figma.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/figma.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/figma.png" alt="figma" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/photoshop.png" alt="photoshop" width="35" height="35"/>
+<a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/photoshop.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/photoshop.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/photoshop.png" alt="photoshop" width="35" height="35" />
+  </picture>
 </a>
-<a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/blender.png" alt="blender" width="35" height="35"/> </a>
+<a href="https://www.blender.org/" target="_blank" rel="noreferrer">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/light/blender.png" media="(prefers-color-scheme: light)" />
+    <source srcset="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/blender.png" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/blender.png" alt="blender" width="35" height="35" />
+  </picture>
+</a>
+
 </div>
 
 <h3 style="color:#cdd6f4;" align="center"> Stats:</h3>
