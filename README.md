@@ -1,10 +1,6 @@
 <h1 align="center" style="color:#cdd6f4;">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/><br> I'm Ahmad Karajah</h1>
 
-<!-- <h3 align="center" style="color:#cdd6f4;" >A passionate CS Student from Jordan <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3> -->
-
 <div align="center" style="display:flex;flex-direction:row;align-items:center">
-
-<!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" alt="Typing SVG" /> -->
 
 <p align="center" >
 	<picture>
@@ -13,7 +9,6 @@
 	  <img alt="Typing SVG"    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=CDD6F4&center=true&vCenter=true&repeat=false&random=false&width=435&lines=A+passionate+CS+Student+from+Jordan+" />
 	</picture>
 </p>
-
 <img style="max-height: inherit; height:50px; "  src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" >
 
 </div>
@@ -29,10 +24,6 @@
 	</picture>
 </p>
 
-<!-- <div align="center" >
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&background=45%2C1E1E2E%2C181825&fire=F38BA8&hide_longest_streak=true" alt="GitHub Streak" /></a>
-
-</div> -->
   
 <h3 align="center" style="color:#cdd6f4;">Connect with me:</h3>
 <p align="center">
@@ -66,15 +57,6 @@
   </a>
 </p>
 
-
-
-
-<!-- <p align="center">
-<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/youtube.png" alt="ahmadmatar7549" width="50" height="50" /></a>
-<a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/leetcode.png" alt="Leetcode: @ahmad-mtr"width="50" height="50"/></a>
-<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/discord.png" alt="AhmadMtr#3611" width="50" height="50" /></a>
-<a href="https://t.me/AhmadMtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" /></a>
-</p> -->
 
 <h3 align="center" style="color:#cdd6f4;">Techstack and Others:</h3>
 <div align="center">
@@ -198,9 +180,6 @@
 </div>
 
 <h3 style="color:#cdd6f4;" align="center"> Stats:</h3>
-
-<!-- ![Ahmad-Mtr's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4) -->
-
 <p align="center" >
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="https://github-readme-activity-graph.vercel.app/graph?username=Ahmad-Mtr&theme=nightowl&hide_border=true&bg_color=1e1e2e&color=cdd6f4&title_color=cba6f7&line=89dceb&point=b4befe&area=true&area_color=cdd6f4" />
@@ -219,7 +198,7 @@
 	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/profile-3d-contrib/night.svg" />
 	</picture>
 </p>
-    <!-- <img src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/profile-3d-contrib/profile-night-green.svg" /> -->
+
 </details>
 
 <div align="right" ><img src="https://profile-counter.glitch.me/Ahmad-Mtr/count.svg" alt="Visitors counter"></div>
