@@ -28,6 +28,11 @@
 	  <img alt="Github Streak"    src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&fire=F38BA8&hide_longest_streak=true" />
 	</picture>
 </p>
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="" />
+	  <source media="(prefers-color-scheme: light)" srcset="" />
+	  <img alt="Github Streak"    src="" />
+	</picture>
 <!-- <div align="center" >
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Ahmad-Mtr&theme=catppuccin-mocha&hide_border=true&mode=weekly&card_width=475&background=45%2C1E1E2E%2C181825&fire=F38BA8&hide_longest_streak=true" alt="GitHub Streak" /></a>
 
@@ -35,10 +40,10 @@
   
 <h3 align="center" style="color:#cdd6f4;">Connect with me:</h3>
 <p align="center">
-<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/youtube.png" alt="ahmadmatar7549" width="50" height="50" /></a>
-<a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/leetcode.png" alt="Leetcode: @ahmad-mtr"width="50" height="50"/></a>
-<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/discord.png" alt="AhmadMtr#3611" width="50" height="50" /></a>
-<a href="https://t.me/AhmadMtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" /></a>
+<a href="https://www.youtube.com/c/ahmadmatar7549" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/youtube.png" alt="ahmadmatar7549" width="50" height="50" /></a>
+<a href="https://www.leetcode.com/ahmad-mtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/leetcode.png" alt="Leetcode: @ahmad-mtr"width="50" height="50"/></a>
+<a href="https://discord.com/invite/RfPGNQfG" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/discord.png" alt="AhmadMtr#3611" width="50" height="50" /></a>
+<a href="https://t.me/AhmadMtr" target="blank"><img align="center" src="https://raw.githubusercontent.com/Ahmad-Mtr/Ahmad-Mtr/main/assets/dark/telegram.png" alt="telegram: @AhmadMtr" width="50" height="50" /></a>
 </p>
 
 <h3 align="center" style="color:#cdd6f4;">Techstack and Others:</h3>
