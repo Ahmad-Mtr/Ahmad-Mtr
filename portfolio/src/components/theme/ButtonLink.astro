@@ -1,0 +1,69 @@
+---
+import IconT from "./IconT.astro";
+interface ButtonLinkProps {
+  content: string;
+  isIcon: boolean;
+  icon: string;
+  className?: string;
+  href: string;
+}
+const { content, isIcon, icon, href, className } = Astro.props;
+---
+
+<!-- <a
+  class=`inline-flex items-center  justify-center px-4 py-2 text-base border border-ctp_sky rounded-md   ${className}`
+  href={href}
+>
+  <div class="">
+    {isIcon && <IconT icon={icon} size="1.33em" gradient={true} />}
+    <p class="font-mono text-ctp_sky">{content}</p>
+  </div>
+  </a> -->
+<div class=`wrap mt-8 ${className} `>
+  <a href={href}  target="_blank" class="">
+    <button class="buttn   w-64 h-14 " id="btn1">
+      <div class="">
+        {isIcon && <IconT icon={icon} size="1.33em" gradient={true} />}
+        <p class="font-mono text-ctp_sky" >{content}</p>
+      </div>
+    </button>
+    <button class="buttn w-64 h-14" id="btn2"></button>
+  </a>
+</div>
+<style>
+    
+   a > .btn {
+    transform: translateX(0%) translateY(0%);
+    transition: 0.3s ease-in-out;
+  }
+
+  a:hover > #btn1 {
+    transform: translateX(-2.5%) translateY(-12%);
+    transition: 0.3s ease-in-out;
+  }
+
+  a:hover > #btn2 {
+    transform: translateX(-1%) translateY(-5%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .buttn {
+    position: absolute;
+    /* width: 288px;
+    height: 70px; */
+    /* color: white;
+    font-size: 1.5rem; */
+    /* border: solid 2px #89dceb; */
+    /* border-radius: 4px; */
+    @apply inline-flex items-center  justify-center px-4 py-2 text-base rounded-sm border border-ctp_sky  hover:text-ctp_sky ;
+  }
+
+  #btn1 {
+    background: #11111b;
+    z-index: 3;
+  }
+  #btn2 {
+    background: #89dceb;
+    z-index: 2;
+  }
+</style>
