@@ -1,5 +1,5 @@
 ---
-// import IconT from "./theme/IconT.astro";
+import IconT from "./theme/IconT.astro";
 
 import { Icon } from "astro-icon/components";
 // import HeroImage from "./hero-image.astro";
@@ -36,9 +36,9 @@ const links: Array<FooterLink> = [
         class="text-ctp_txt1 font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
         >Astro</a
       >
-      <div class="flex items-center ml-0">
-        <!-- <IconT icon="rocket-launch" gradient={true} size="1.2em" /> -->
-         <Icon name={"mdi:github"}></Icon>
+      <div class="flex items-center ml-0 ">
+        <IconT icon="rocket-launch" gradient={true} size="1.2em" />
+         <!-- <Icon name={"mdi:github"}></Icon> -->
       </div>
     </small>
   </div>
