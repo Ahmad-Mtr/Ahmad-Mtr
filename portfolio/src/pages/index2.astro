@@ -1,29 +1,22 @@
 ---
-// import Skills from "../components/skills.astro";
-// import SelectedWork from "../components/Selected-Work.astro";
+import Skills from "../components/skills.astro";
+import SelectedWork from "../components/Selected-Work.astro";
 // import PrjktsGrid from "../components/theme/Prjkts-Grid.astro";
 import Footer from "../components/Footer.astro";
- import Nav from "../components/Nav.astro";
+import Nav from "../components/Nav.astro";
 // import Intro from "../components/intro.astro";
-// import Showcase from "../components/showcase.astro";
-// import Splash from "../components/splash.astro";
- import VNav from "../components/V-Nav.astro";
+import Showcase from "../components/showcase.astro";
+import Splash from "../components/splash.astro";
+import VNav from "../components/V-Nav.astro";
 // import Lamp from "../components/lamp.astro";
-// import { Icon } from "astro-icon/components/";
+// import { Icon } from "astro-icon/components";
 import "../styles/index.css";
 
 const { generator, site } = Astro;
-// const image = new URL("pfp.png", site);
-interface Props {
-  title: string;
-  description: string;
-
-}
-
-
-
-const {title ="AhmadMtr | a software developer and a Designer 👨‍💻🎨", description ="Want a cool-looking, and blazingly fast website | mobile App? You're in the right place!"} = Astro.props as Props;
-
+// const image = new URL("social.jpg", site);
+const title = "AhmadMtr | a software developer and a Designer 👨‍💻🎨"
+const description =
+  "Want a cool-looking, and blazingly fast website | mobile App? You're in the right place!";
 
 ---
 
@@ -34,6 +27,7 @@ const {title ="AhmadMtr | a software developer and a Designer 👨‍💻🎨", 
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
+    
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -75,9 +69,21 @@ const {title ="AhmadMtr | a software developer and a Designer 👨‍💻🎨", 
   >
     <VNav />
     <Nav />
-    <slot>
-      
-    </slot>
+    <Splash />
+
+    <!-- main Content -->
+    
+    <div class="space-y-24 px-8 py-16">
+    <!-- About -->
+    <SelectedWork />
+    <!-- <Intro /> -->
+    <!-- Prjkts -->
+    <!-- <PrjktsGrid/> -->
+    
+    <Skills />
+    <!-- Blog -->
+    <Showcase />
+  </div>
   <Footer />
 </body>
 </html>

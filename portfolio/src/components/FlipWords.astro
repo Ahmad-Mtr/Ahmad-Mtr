@@ -1,0 +1,10 @@
+---
+import { FlipWordsDemo, FlipWordsConstruction } from './aceternity/FlipWords';
+interface Props {
+    variant?: number;
+}
+const { variant = 0 } = Astro.props as Props;
+---
+
+{variant === 0 && <FlipWordsDemo client:only="react" />}
+{variant === 1 && <FlipWordsConstruction client:only="react" />}
