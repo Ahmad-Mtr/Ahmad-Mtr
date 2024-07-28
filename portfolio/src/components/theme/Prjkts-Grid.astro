@@ -1,0 +1,61 @@
+---
+import { Icon } from "astro-icon/components";
+import type { PrjktItem } from "../../types";
+import PrjktElement from "./Prjkt-Element.astro";
+import ContentSection from "../content-section.astro";
+
+const prjkts: Array<PrjktItem> = [
+  {
+    title: "astroOS",
+    description: "A semi-OS/desktop environment for the web, written in vanilla JavaScript. This application won place at the GJU IT Hackathon.",
+    url: "https://astrolabe-gju.github.io/astroOS/",
+    github: "https://github.com/astrolabe-gju/astroOS",
+    tags: ["web", "javascript", "hackathon"],
+  },
+  {
+    title: "K",
+    description: "My C clone for my 3 monthly active Users, built with Flutter & Riverpod. ",
+    url: null,
+    github: "https://github.com/Ahmad-Mtr/K",
+    tags: ["mobile", "flutter", "social media"],
+  },
+  {
+    title: "LinkSort",
+    description: "A sorting algorithm that uses a linked list data structure to sort arrays with a best time complexity of O(n) and space complexity of O(n) .",
+    url: null,
+    github: "https://github.com/Ahmad-Mtr/LinkSort",
+    tags: ["algorithms", "sorting"],
+  },
+  {
+    title: "String Tokenizer",
+    description: "A A Dart/Flutter package that splits Strings into Tokens using a delimeter",
+    url: 'https://pub.dev/packages/string_tokenizer_1',
+    github: "https://github.com/Ahmad-Mtr/LinkSort",
+    tags: ["string-manipulation","dart", "tokens"],
+  },
+];
+---
+
+<!-- <ContentSection title="Selected Work" id="selected Work" > -->
+<ul class="grid max-w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2  px-24 pb-12 gap-y-0 gap-x-4 ">
+  {prjkts.map(( {title , description, url, github,tags}) => (
+    <li class="flex flex-col items-center gap-4  p-12  ">
+      <PrjktElement  {title} {description} {url}  {github} {tags} />
+    </li>
+  ))}
+</ul>
+
+<!-- <ul class="grid max-w-full grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+  <li class="flex flex-col items-center gap-4 border border-default p-12">
+    <PrjktElement items={prjkts} />
+  </li>
+  <li class="flex flex-col items-center gap-4 border border-default p-12">
+    <PrjktElement items={prjkts} />
+  </li>
+  <li class="flex flex-col items-center gap-4 border border-default p-12">
+    <PrjktElement items={prjkts} />
+  </li>
+</ul> -->
+<!-- <PrjktElement items={prjkts} />
+  <PrjktElement items={prjkts} /> -->
+<!-- </ContentSection> -->

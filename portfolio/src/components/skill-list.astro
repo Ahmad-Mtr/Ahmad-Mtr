@@ -1,0 +1,46 @@
+---
+import { Icon } from "astro-icon/components";
+import type { SkillItem } from "../types";
+
+export interface Props {
+  items: Array<SkillItem>;
+  title: string;
+  url: string;
+  className?: string;
+  position?: "right" | "left";
+}
+
+const { items, title, url, className, position } = Astro.props as Props;
+---
+
+<div class=` max-w-4xl space-y-2  ${className}`>
+  <div class="relative border border-default bg-ctp-crust px-6 py-4 max-h-40">
+    <h3
+      class=`absolute ${position === "right" ? "left-4" : "right-4"} top-0 -translate-y-1/2 rounded-xl border border-current bg-transparent px-4 py-1 uppercase tracking-tight text-xs font-mono text-ctp-sky`
+    >
+      {title}
+    </h3>
+    <ul class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-3 ">
+      {
+        items.map((item) => (
+          <li class="">
+            <a class="flex flex-col justify-center items-center gap-2 rounded-md hover:bg-ctp-base hover:outline hover:outline-1 hover:outline-ctp-overlay2 text-center w-32 h-full " href={item.url}>
+              
+                <Icon  class={'size-12'} name={item.icon} />
+                <span class="font-mono text-nowrap">{item.title}</span>
+              
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+  <p class="text-right text-sm">
+    <a
+      class="text-ctp_txt2 font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
+      href={url}
+    >
+      ...and more &rarr;</a
+    >
+  </p>
+</div>

@@ -1,0 +1,110 @@
+---
+import SkillList from "./skill-list.astro";
+import ContentSection from "./content-section.astro";
+import type { SkillItem } from "../types";
+
+const frameworks: Array<SkillItem> = [
+  {
+    title: "Astro",
+    icon: "frameworks/astro",
+    url: "https://astro.build/",
+  },
+  {
+    title: "Flutter",
+    icon: "frameworks/flutter",
+    url: "https://flutter.com/",
+  },
+  {
+    title: "React",
+    icon: "frameworks/react",
+    url: "https://reactjs.org/",
+  },
+];
+
+
+const Languages: Array<SkillItem> = [
+  {
+    title: "Javascript",
+    icon: "languages/javascript",
+    url: "https://www.netlify.com/",
+  },
+  {
+    title: "C",
+    icon: "languages/c",
+    url: "https://www.netlify.com/",
+  },
+  {
+    title: "Dart",
+    icon: "languages/dart",
+    url: "https://www.netlify.com/",
+  },
+];
+const DevOPS: Array<SkillItem> = [
+  {
+    title: "Git",
+    icon: "devops/git",
+    url: "https://www.netlify.com/",
+  },
+  {
+    title: "Github Actions",
+    icon: "devops/gh-actions",
+    url: "https://www.netlify.com/",
+  },
+  {
+    title: "Docker",
+    icon: "devops/docker",
+    url: "https://www.netlify.com/",
+  },
+];
+const Design: Array<SkillItem> = [
+  {
+    title: "Figma",
+    icon: "design/figma",
+    url: "https://www.figma.com/",
+  },
+  {
+    title: "Photoshop",
+    icon: "design/photoshop",
+    url: "https://www.figma.com/",
+  },
+  {
+    title: "Blender",
+    icon: "design/blender",
+    url: "https://www.blender.org/",
+  },
+];
+---
+
+<ContentSection title="Skills" id="skills" className=" ">
+  <Fragment slot="lead">
+    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
+    <span class="text-primary">framework</span>
+    and deploy to your favorite <span class="text-primary">platform</span>.
+  </Fragment>
+  <SkillList
+    items={Languages}
+    title="Languages"
+    url="/under-construction"
+    className="pl-[13.5rem] w-full"
+    />
+    <SkillList
+    items={frameworks}
+    title="Frameworks"
+    url="/under-construction"
+    className="pr-[13.5rem]  w-full"
+    position="right"
+    />
+    <SkillList
+    items={DevOPS}
+    title="DevOPS"
+    url="/under-construction"
+    className="pl-[13.5rem] w-full"
+    />
+    <SkillList
+    items={Design}
+    title="Design"
+    url="/under-construction"
+    className="pr-[13.5rem]  w-full"
+    position="right"
+    />
+</ContentSection>
