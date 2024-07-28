@@ -46,12 +46,12 @@ const { title, description, github, tags, url, className } =
     </div>
   </div>
   <div class="flex-row flex justify-end gap-3 mt-4 text-xl space-x-3 mr-5">
-    <a href={github}> <Icon name={"mdi:github"} class="size-fit" /></a>
+    <a href={github}> <Icon  id={'hoverable-icon'} name={"mdi:github"} class="size-fit" /></a>
     {
       url != null && (
         <a href={url}>
           {" "}
-          <Icon name={"design/link-out"} class="size-fit" />
+          <Icon id={'hoverable-icon'} name={"design/link-out"} class="size-fit" />
         </a>
       )
     }

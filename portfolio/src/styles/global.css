@@ -10,3 +10,11 @@ a,
   @apply bg-clip-text text-transparent;
   @apply bg-gradient-to-br from-ctp-green via-ctp-sky to-ctp-sky;
 }
+.hoverable-icon{
+  @apply transition-transform duration-300 transform group-hover:-translate-y-2;
+}
+#hoverable-icon:hover {
+  @apply hover:text-ctp-sky;
+  transform:  translateY(-20%);
+  transition: 0.3s ease-in-out;
+}
