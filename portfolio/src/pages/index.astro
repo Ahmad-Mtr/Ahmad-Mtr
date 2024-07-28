@@ -1,97 +1,89 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Skills from "../components/skills.astro";
+import SelectedWork from "../components/Selected-Work.astro";
+// import PrjktsGrid from "../components/theme/Prjkts-Grid.astro";
+import Footer from "../components/Footer.astro";
+import Nav from "../components/Nav.astro";
+// import Intro from "../components/intro.astro";
+import Showcase from "../components/showcase.astro";
+import Splash from "../components/splash.astro";
+import VNav from "../components/V-Nav.astro";
+// import Lamp from "../components/lamp.astro";
+// import { Icon } from "astro-icon/components";
+import "../styles/index.css";
+
+const { generator, site } = Astro;
+// const image = new URL("social.jpg", site);
+const title = "AhmadMtr | a software developer and a Designer 👨‍💻🎨"
+const description =
+  "Want a cool-looking, and blazingly fast website | mobile App? You're in the right place!";
+
 ---
 
-<Layout title="Welcome to Astro." > 
-	<main class="font-sans">
-		
-		<h1>Welcome to <span class="text-gradient">Test</span></h1>
-		<h2 class="bg-ctp-base text-ctp-text rounded-lg pl-5">Header 2</h2>
-		<p class="instructions">
-			To get started, open the directory <code class='font-mono text-ctp-sky'>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
+<!doctype html>
+<html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="generator" content={generator} />
+    
 
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
-</style>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- social media -->
+    <meta property="og:title" content="Astro" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={description} />
+    <!-- <meta property="og:image" content={image} /> -->
+    <meta property="og:url" content={site} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- initialize theme -->
+    <script is:inline>
+      const themeSaved = localStorage.getItem("theme");
+
+      if (themeSaved) {
+        document.documentElement.dataset.theme = themeSaved;
+      } else {
+        const prefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
+        document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
+      }
+
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", (event) => {
+          if (!localStorage.getItem("theme")) {
+            document.documentElement.dataset.theme = event.matches
+              ? "dark"
+              : "light";
+          }
+        });
+    </script>
+  </head>
+  <body
+    class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-ctp-base selection:text-ctp_txt1"
+  >
+    <VNav />
+    <Nav />
+    <Splash />
+
+    <!-- main Content -->
+    
+    <div class="space-y-24 px-8 py-16">
+    <!-- About -->
+    <SelectedWork />
+    <!-- <Intro /> -->
+    <!-- Prjkts -->
+    <!-- <PrjktsGrid/> -->
+    
+    <Skills />
+    <!-- Blog -->
+    <Showcase />
+  </div>
+  <Footer />
+</body>
+</html>
