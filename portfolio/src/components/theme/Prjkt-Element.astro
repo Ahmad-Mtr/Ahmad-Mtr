@@ -1,0 +1,147 @@
+---
+import { Icon } from "astro-icon/components";
+import type { PrjktItem } from "../../types";
+export interface Props {
+  title: string;
+  description: string;
+  github: string;
+  tags: Array<string>;
+  url: string | null;
+  className?: string;
+}
+
+const { title, description, github, tags, url, className } =
+  Astro.props as Props;
+---
+
+<!-- Main -->
+<div class="grid grid-cols-1 gap-5 p-5 max-w-3xl m-auto">
+  <div class="element-box-animation flex flex-col gap-3 relative" >
+    <!-- Outline -->
+    <div
+      class="element-box-outline absolute flex w-full h-full transform translate-x-3 translate-y-3 z-1 rounded-sm border-ctp-sky border"
+    >
+    </div>
+    <!-- Card items -->
+    <div
+      class="element-box-content   transform -translate-x-3 -translate-y-3 w-full bg-ctp-crust z-3 px-12 py-8 space-y-4"
+    >
+      <h2 class="font-sans text-3xl font-medium text-ctp-text mt-1">{title}</h2>
+      <p
+        id="text-container-item"
+        class="font-sans text-base font-regular text-ctp-subtext0 pb-2"
+      >
+        {description}
+      </p>
+      <!-- Tags -->
+      <ul class="roles mt-2 flex gap-1 space-x-1 font-mono text-ctp-sky">
+        {
+          tags.map((tag) => (
+            <li class="border rounded-xl inline-flex px-4 py-1 border-ctp-sky text-sm">
+              {tag}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+  <div class="flex-row flex justify-end gap-3 mt-4 text-xl space-x-3 mr-5">
+    <a href={github}> <Icon name={"mdi:github"} class="size-fit" /></a>
+    {
+      url != null && (
+        <a href={url}>
+          {" "}
+          <Icon name={"design/link-out"} class="size-fit" />
+        </a>
+      )
+    }
+  </div>
+</div>
+
+<style>
+  #outline {
+    transform: translateX(100%) translateY(-32%);
+    transition: 0.3s ease-in-out;
+  }
+
+  #content {
+    transform: translateX(-2.5%) translateY(12%);
+    transition: 0.3s ease-in-out;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr; /* Card takes the remaining space */
+    /*gap: 20px; /* Space between the card and the end items */
+    /* padding: 20px; */
+    /* max-width: 730px; */
+    margin: 0 auto;
+    @apply grid grid-cols-1 gap-5 p-5  m-auto max-w-3xl;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between card items */
+    /* border: 33px solid red; */
+    border-radius: 8px;
+    @apply flex flex-col gap-3;
+    /* padding: 16px; */
+    /* background-color: #f9f9f9; */
+  }
+
+  .card-item {
+    /* padding: 10px; */
+    border-radius: 4px;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  }
+
+  .end-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Align items to the bottom */
+    gap: 10px; /* Space between end items */
+    @apply flex-row flex justify-end gap-3;
+  }
+
+  .end-item {
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+    /* border-radius: 4px; */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); */
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    }
+    .end-items {
+      align-items: flex-start; /* Align items to the start */
+    }
+  }
+  #text-container-item {
+    /* @apply max-h-16 overflow-hidden  */
+    max-height: calc(1.5em * 3); /* Set max-height based on 3 lines */
+    overflow: hidden; /* Hide overflow content */
+    display: -webkit-box; /* Fallback for WebKit browsers */
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical; /* Fallback for WebKit browsers */
+    line-height: 1.5; /* Adjust line height for proper spacing */
+    text-overflow: ellipsis; /* Adds ellipsis when text is clamped */
+    white-space: normal; /* Allows normal text wrapping */
+  }
+  
+  .element-box-animation:hover > .element-box-outline {
+    cursor: pointer;
+    @apply transform -translate-x-3 -translate-y-3;
+    /* transform: translateX(0%) translateY(-5%); */
+    transition: 0.3s ease-in-out;
+  }
+  
+  .element-box-animation:hover > .element-box-content {
+    cursor: pointer;
+    @apply transform -translate-x-1 translate-y-1;
+    /* transform: translateX(-2.5%) translateY(-12%); */
+    transition: 0.3s ease-in-out;
+  }
+</style>

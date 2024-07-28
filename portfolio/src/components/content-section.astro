@@ -1,0 +1,28 @@
+---
+export interface Props {
+  id: string;
+  title: string;
+  className?: string;
+}
+
+const { title, id ,className} = Astro.props;
+// const skillsClassName = id == "skills" ? "" : "";
+---
+
+<section
+  id={id}
+  class=`flex scroll-smooth mt-24 flex-col items-center gap-1 space-y-4 ${className} `
+>
+  <div class="flex flex-col items-center gap-4">
+    <slot name="eyebrow" />
+    <h2
+      class=" text-center  tracking-tight  bg-gradient-to-br from-ctp-sky to-ctp-surface2 pt-4 bg-clip-text text-4xl font-medium  text-transparent md:text-7xl"
+    >
+      {title}
+    </h2>
+  </div>
+  <p class="max-w-xl text-center text-ctp-subtext0 font-left text-lg mt-12  ">
+    <slot name="lead" />
+  </p>
+  <slot  />
+</section>
