@@ -1,0 +1,70 @@
+---
+// import IconT from "./theme/IconT.astro";
+
+import { Icon } from "astro-icon/components";
+// import HeroImage from "./hero-image.astro";
+ import type { FooterLink } from "../types";
+
+const currentYear = new Date().getFullYear();
+
+const links: Array<FooterLink> = [
+  {
+    url: "https://t.me/AhmadMtr",
+    description: "Telegram: @AhmadMtr",
+    icon: "mdi:telegram",
+  },
+  {
+    url: "https://github.com/Ahmad-Mtr/portfolio",
+    description: "View source on GitHub",
+    icon: "mdi:github",
+  },
+  {
+    url: "https://leetcode.com/",
+    description: "Ahmad on Leetcode",
+    icon: "simple-icons:leetcode",
+  },
+];
+---
+
+
+<footer class=" flex text-ctp_txt2 items-center">
+  <small>&copy; {currentYear} Ahmad Mahmoud</small>
+  <div class="group  inline-flex  ">
+    <small class="inline-flex gap-1 ">
+      Built with <a
+        href="https://astro.build/"
+        class="text-ctp_txt1 font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
+        >Astro</a
+      >
+      <div class="flex items-center ml-0">
+        <!-- <IconT icon="rocket-launch" gradient={true} size="1.2em" /> -->
+         <Icon name={"mdi:github"}></Icon>
+      </div>
+    </small>
+  </div>
+  <p class="socials flex justify-center gap-4 flex-wrap text-ctp_txt2 text-sm ">
+    <a href="https://twitter.com/me" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Telegram</a>
+    <a href="https://github.com/me" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Source Code</a>
+    <a href="https://codepen.io/me" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Leetcode</a>
+  </p>
+</footer>
+
+<style>
+  @media (min-width: 50em) {
+    footer {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2.5rem 5rem;
+    }
+
+    .group {
+      flex-direction: row;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .socials {
+      justify-content: flex-end;
+    }
+  }
+</style>
