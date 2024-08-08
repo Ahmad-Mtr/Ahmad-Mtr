@@ -27,31 +27,68 @@ const links: Array<FooterLink> = [
 ---
 
 
-<footer class=" flex text-ctp_txt2 items-center">
-  <small>&copy; {currentYear} Ahmad Mahmoud</small>
-  <div class="group  inline-flex  ">
-    <small class="inline-flex gap-1 ">
-      Built with <a
-        href="https://astro.build/"
-        class="text-ctp_txt1 font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
-        >Astro</a
+<!-- <footer class=" flex text-ctp_txt2 items-center  "> -->
+ 
+
+<footer class="bg-default text-ctp-subtext1 py-6">
+  <div class="container mx-auto px-4 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center">
+    <!-- Copyright Section -->
+    <div class="text-center md:text-left">
+      <small>&copy; {currentYear} Ahmad Mahmoud</small>
+    </div>
+
+    <!-- Built With Section -->
+    <div class="flex justify-center items-center gap-2 md:justify-center">
+      <small class="flex items-center gap-1">
+        Built with 
+        <a
+          href="https://astro.build/"
+          class="text-ctp-text font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
+        >
+          Astro
+        </a>
+        <div class="ml-0">
+          <IconT icon="rocket-launch" gradient={true} size="1.2em" />
+        </div>
+      </small>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex justify-center md:justify-end gap-4 flex-wrap text-ctp_txt2 text-sm">
+      <a
+        href="https://www.leetcode.com/ahmad-mtr"
+        class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"
       >
-      <div class="flex items-center ml-0 ">
-        <IconT icon="rocket-launch" gradient={true} size="1.2em" />
-         <!-- <Icon name={"mdi:github"}></Icon> -->
-      </div>
-    </small>
+        Leetcode
+      </a>
+      <a
+        href="https://github.com/Ahmad-Mtr/Ahmad-Mtr/tree/main/portfolio"
+        class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"
+      >
+        Source Code
+      </a>
+      <a
+        href="https://codepen.io/Ahmad-Mtr"
+        class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"
+      >
+        Codepen
+      </a>
+    </div>
   </div>
-  <p class="socials flex justify-center gap-4 flex-wrap text-ctp_txt2 text-sm ">
-    <a href="https://www.leetcode.com/ahmad-mtr" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Leetcode</a>
-    <a href="https://github.com/Ahmad-Mtr/Ahmad-Mtr/tree/main/portfolio" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Source Code</a>
-    <a href="https://codepen.io/Ahmad-Mtr" class="hover:underline focus:text-ctp_sky hover:text-ctp_sky focus:font-medium"> Codepen</a>
-  </p>
 </footer>
 
 <style>
   @media (min-width: 50em) {
     footer {
+      padding: 2.5rem 5rem;
+    }
+  }
+</style>
+
+<!-- <style>
+  @media (min-width: 50em) {
+    footer {
+      
       flex-direction: row;
       justify-content: space-between;
       padding: 2.5rem 5rem;
@@ -67,4 +104,4 @@ const links: Array<FooterLink> = [
       justify-content: flex-end;
     }
   }
-</style>
+</style> -->
