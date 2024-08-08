@@ -77,16 +77,16 @@ This theme is based off of the lovely [Bear Blog](https://github.com/HermanMarti
 - [x] Bckgrnd
 - [x] Home --> Rest
 - [ ] Meteor Scroll Component
-- [ ] Home | Mobile
-- [ ] Add Hovering effect to VBar; y+ on hover
+- [ ] Home | Mobile *
+- [x] Add Hovering effect to VBar; y+ on hover
 - [x] Replace Designer Icon with one from phosphor Icons
-- [ ] Consistent Scroll Bar
+- [ ] Consistent Scroll Bar **
 - [x] Modify VBar Links
 - [ ] Nav Through CLi
 - [x] Skills:- onHover
-- [ ] Blur NavBar
-- [ ] Modify Footer Links
-- [ ] Modify Skills Links
+- [x] Blur NavBar 
+- [x] Modify Footer Links 
+- [x] Modify Skills Links 
 
 
 **Selected Work**
