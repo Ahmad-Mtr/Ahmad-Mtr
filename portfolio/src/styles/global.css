@@ -18,3 +18,32 @@ a,
   transform:  translateY(-20%);
   transition: 0.3s ease-in-out;
 }
+/* Universal scrollbar styling */
+.scrollbar-dark {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color:  #A6ADC8 #181825; /* Thumb and Track colors */
+}
+
+.scrollbar-dark::-webkit-scrollbar {
+  width: 8px; /* WebKit browsers */
+  height: 8px; /* Horizontal scrollbar height */
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+  background: #222; /* Track color */
+  border-radius: 50px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+  background-color: #444; /* Thumb color */
+  border-radius: 50px;
+  border: 2px solid #222; /* Creates a small padding around thumb */
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Hover color */
+}
+
+.scrollbar-dark::-webkit-scrollbar-corner {
+  background-color: #222; /* Scrollbar corner color */
+}
