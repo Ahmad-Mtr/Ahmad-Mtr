@@ -13,14 +13,16 @@ export interface Props {
 const { items, title, url, className, position } = Astro.props as Props;
 ---
 
-<div class=` max-w-4xl space-y-2  ${className}`>
-  <div class="relative border border-default bg-ctp-crust px-6 py-4 max-h-40">
+<div class=` max-w-5xl space-y-6  ${className} `>
+  <div class="relative border border-default bg-ctp-crust px-6 max-sm:px-2 py-4 max-h-40">
+    <!-- Title -->
     <h3
-      class=`absolute ${position === "right" ? "left-4" : "right-4"} top-0 -translate-y-1/2 rounded-xl border border-current bg-transparent px-4 py-1 uppercase tracking-tight text-xs font-mono text-ctp-sky`
+    class=`absolute ${position === "right" ? "left-4" : "right-4"} top-0 -translate-y-1/2 rounded-xl border border-current bg-transparent px-4 py-1 uppercase tracking-tight text-xs font-mono text-ctp-sky`
     >
-      {title}
-    </h3>
-    <ul class="grid grid-cols-2 gap-8 sm:grid-cols-3 md:grid-cols-3 ">
+    {title}
+  </h3>
+  <!-- List -->
+    <ul class="grid grid-cols-3 gap-8 max-sm:gap-0 sm:grid-cols-3 md:grid-cols-3 ">
       {
         items.map((item) => (
           <li class="">
