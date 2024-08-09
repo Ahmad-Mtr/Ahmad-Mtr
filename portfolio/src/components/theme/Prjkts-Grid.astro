@@ -37,9 +37,9 @@ const prjkts: Array<PrjktItem> = [
 ---
 
 <!-- <ContentSection title="Selected Work" id="selected Work" > -->
-<ul class="grid max-w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2  px-24 pb-12 gap-y-0 gap-x-4 ">
+<ul class="grid max-w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-2  sm:px-24 pb-12 gap-y-0 gap-x-4 ">
   {prjkts.map(( {title , description, url, github,tags}) => (
-    <li class="flex flex-col items-center gap-4  p-12  ">
+    <li class="flex flex-col items-center gap-4  sm:p-12  max-sm:px-0 max-sm:py-4  ">
       <PrjktElement  {title} {description} {url}  {github} {tags} />
     </li>
   ))}
