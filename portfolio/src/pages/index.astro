@@ -14,20 +14,22 @@ import "../styles/index.css";
 
 const { generator, site } = Astro;
 // const image = new URL("social.jpg", site);
-const title = "AhmadMtr | a software developer and a Designer 👨‍💻🎨"
+const title = "AhmadMtr | a software developer and a Designer 👨‍💻🎨";
 const description =
   "Want a cool-looking, and blazingly fast website | mobile App? You're in the right place!";
-
 ---
 
 <!doctype html>
-<html lang="en" class="h-full motion-safe:scroll-smooth  scrollbar-dark " data-theme="dark">
+<html
+  lang="en"
+  class="h-full motion-safe:scroll-smooth scrollbar-dark"
+  data-theme="dark"
+>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
-    
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -65,25 +67,27 @@ const description =
     </script>
   </head>
   <body
-    class="h-full  overflow-x-hidden bg-default text-default text-base selection:bg-ctp-base selection:text-ctp_txt1"
+    class="h-full overflow-x-hidden bg-default text-default text-base selection:bg-ctp-base selection:text-ctp_txt1"
   >
     <VNav />
     <Nav />
     <Splash />
 
     <!-- main Content -->
-    
+
     <div class="space-y-24 px-8 py-16">
-    <!-- About -->
-    <SelectedWork />
-    <!-- <Intro /> -->
-    <!-- Prjkts -->
-    <!-- <PrjktsGrid/> -->
-    
-    <Skills />
-    <!-- Blog -->
-    <!-- <Showcase /> -->
-  </div>
-  <Footer />
-</body>
+      <!-- About -->
+      
+        <SelectedWork />
+      
+      <!-- <Intro /> -->
+      <!-- Prjkts -->
+      <!-- <PrjktsGrid/> -->
+
+      <Skills />
+      <!-- Blog -->
+      <!-- <Showcase /> -->
+    </div>
+    <Footer />
+  </body>
 </html>
