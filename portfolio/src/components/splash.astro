@@ -13,39 +13,37 @@ const widths = [450, 800];
 const sizes = "(min-width: 640px) 42vw, 67vw";
 ---
 
-<section class="relative h-full bg-ctp_bckgrnd">
+<section class="relative h-full  bg-ctp_bckgrnd ">
   <Starfield />
   <!-- <GridBckgrnd className="absolute inset-0"/> -->
   <!-- <GitHubCorner /> -->
   
-  <div class="relative grid h-full place-items-center sm:grid-cols-2">
+  <div class="relative grid h-full  place-items-center    sm:grid-cols-2">
     <div
-      class="flex items-center gap-4 self-end sm:gap-4 sm:self-auto sm:justify-self-end
-      whitespace-nowrap w-2/3"
+      class="flex items-center gap-4 self-center sm:gap-4 sm:self-auto sm:justify-self-end
+      whitespace-nowrap w-2/3 "
     >
       <!-- <Icon name="logomark" class="size-20 md:size-32" /> -->
 
-      <div class="text-left space-y-2">
+      <div class="text-left space-y-2         max-sm:text-wrap ">
         <small class="text-ctp_sky font-mono text-sm"> Hi, my name is </small>
 
-        <h1 class="font-sans text-6xl font-extrabold text-ctp_txt1">Ahmad</h1>
-        <h2 class="font-sans text-5xl font-extrabold text-ctp_txt2">
+        <h1 class="font-sans text-6xl font-extrabold text-ctp_txt1    max-sm:text-5xl">Ahmad</h1>
+        <h2 class="font-sans text-5xl font-extrabold text-ctp_txt2    sm:w-[47.5rem] max-sm:text-wrap max-sm:text-4xl">
           I create things for <FlipWords />.
         </h2>
         <p
           id="text-container-item"
-          class="font-sans text-base font-regular text-ctp-subtext0 pb-2"
+          class="font-sans text-base font-regular text-ctp-subtext0 pb-2 text-wrap"
         >
-          I'm a creative Developer from Jordan specializing in designing &<br
-          />building captivating digital Experiences. Currently, I'm a Student<br
-          />pursuing a Computer Science Degree <a
+          I'm a creative Developer from Jordan specializing in designing & building captivating digital Experiences. Currently, I'm a Student pursuing a Computer Science Degree <a
             href="https://www.gju.edu.jo/"
             class="text-ctp_sky font-medium hover:underline hover:text-ctp_sky"
             >@GJU</a
           >.
         </p>
         <!-- Tags -->
-        <div class="roles mt-2 flex gap-2 space-x-2 pb-6">
+        <div class="roles mt-2 sm:flex gap-2 space-x-2  pb-6   max-sm:grid  max-sm:grid-cols-2 space-y-0 max-sm:space-x-0">
           <Pill
             ><IconT icon="code" size="1.33em" gradient={true} /> Developer</Pill
           >

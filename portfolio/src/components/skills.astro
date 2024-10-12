@@ -75,7 +75,7 @@ const Design: Array<SkillItem> = [
 ];
 ---
 
-<ContentSection title="Skills" id="skills" className=" ">
+<ContentSection title="Skills" id="skills" className=" max-sm:space-y-8">
   <Fragment slot="lead">
     
       Here is my Techstack that I've worked with:
@@ -85,26 +85,26 @@ const Design: Array<SkillItem> = [
     items={Languages}
     title="Languages"
     url="/under-construction"
-    className="pl-[13.5rem] w-full"
+    className="sm:pl-[13.5rem] p-0 w-full"
     />
     <SkillList
     items={frameworks}
     title="Frameworks"
     url="/under-construction"
-    className="pr-[13.5rem]  w-full"
+    className="sm:pr-[13.5rem] p-0  w-full"
     position="right"
     />
     <SkillList
     items={DevOPS}
     title="DevOPS"
     url="/under-construction"
-    className="pl-[13.5rem] w-full"
+    className="sm:pl-[13.5rem] p-0 w-full"
     />
     <SkillList
     items={Design}
     title="Design"
     url="/under-construction"
-    className="pr-[13.5rem]  w-full"
+    className="sm:pr-[13.5rem] p-0 w-full"
     position="right"
     />
 </ContentSection>

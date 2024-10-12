@@ -24,7 +24,7 @@ const { title, description, github, tags, url, className } =
     </div>
     <!-- Card items -->
     <div
-      class="element-box-content   transform -translate-x-3 -translate-y-3 w-full bg-ctp-crust z-3 px-12 py-8 space-y-4"
+      class="element-box-content   transform -translate-x-3 -translate-y-3 w-full bg-ctp-crust z-3 sm:px-12 px-9 py-8 sm:space-y-4 space-y-3"
     >
       <h2 class="font-sans text-3xl font-medium text-ctp-text mt-1">{title}</h2>
       <p
@@ -34,7 +34,7 @@ const { title, description, github, tags, url, className } =
         {description}
       </p>
       <!-- Tags -->
-      <ul class="roles mt-2 flex gap-1 space-x-1 font-mono text-ctp-sky">
+      <ul class="roles mt-2 sm:flex gap-1 space-x-1 font-mono text-ctp-sky max-sm:flex-wrap max-sm:space-y-2">
         {
           tags.map((tag) => (
             <li class="border rounded-xl inline-flex px-4 py-1 border-ctp-sky text-sm">
@@ -45,7 +45,7 @@ const { title, description, github, tags, url, className } =
       </ul>
     </div>
   </div>
-  <div class="flex-row flex justify-end gap-3 mt-4 text-xl space-x-3 mr-5">
+  <div class="flex-row flex justify-end gap-3 sm:mt-4 mt-5 text-xl space-x-3 mr-5">
     <a href={github}> <Icon  id={'hoverable-icon'} name={"mdi:github"} class="size-fit" /></a>
     {
       url != null && (
