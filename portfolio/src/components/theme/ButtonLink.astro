@@ -19,20 +19,19 @@ const { content, isIcon, icon, href, className } = Astro.props;
     <p class="font-mono text-ctp_sky">{content}</p>
   </div>
   </a> -->
-<div class=`wrap mt-8 ${className} `>
-  <a href={href}  target="_blank" class="">
-    <button class="buttn   w-64 h-14 " id="btn1">
+<div class=`wrap  ${className} `>
+  <a href={href} target="_blank" class="">
+    <button class="buttn w-48 h-12 md:w-64 md:h-14" id="btn1">
       <div class="">
         {isIcon && <IconT icon={icon} size="1.33em" gradient={true} />}
-        <p class="font-mono text-ctp_sky" >{content}</p>
+        <p class="font-mono text-ctp_sky">{content}</p>
       </div>
     </button>
-    <button class="buttn w-64 h-14" id="btn2"></button>
+    <button class="buttn w-48 h-12 md:w-64 md:h-14" id="btn2"></button>
   </a>
 </div>
 <style>
-    
-   a > .btn {
+  a > .btn {
     transform: translateX(0%) translateY(0%);
     transition: 0.3s ease-in-out;
   }
@@ -55,7 +54,7 @@ const { content, isIcon, icon, href, className } = Astro.props;
     font-size: 1.5rem; */
     /* border: solid 2px #89dceb; */
     /* border-radius: 4px; */
-    @apply inline-flex items-center  justify-center px-4 py-2 text-base rounded-sm border border-ctp_sky  hover:text-ctp_sky ;
+    @apply inline-flex items-center  justify-center px-4 py-2 text-base rounded-sm border border-ctp_sky  hover:text-ctp_sky;
   }
 
   #btn1 {
