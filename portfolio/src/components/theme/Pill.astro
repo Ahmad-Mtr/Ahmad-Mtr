@@ -9,8 +9,8 @@ const { className = "" } = Astro.props;
 
 <style>
   .pill {
-    @apply text-ctp_txt1 bg-transparent outline outline-1 outline-ctp-sky text-xs py-1 px-2 gap-1 md:gap-2  md:p-2;
-    display: flex;
+    @apply flex md:!text-xs items-center justify-center text-ctp_txt1 bg-transparent outline outline-1 outline-ctp-sky   gap-1 md:gap-2 py-1 px-2 md:py-2  md:px-3 font-mono;
+
     /* padding: 0.5rem 1rem; */
 
     /* color: var(--accent-text-over); */
@@ -18,7 +18,7 @@ const { className = "" } = Astro.props;
     border: 1px solid var(--accent-regular);
 
     border-radius: 1rem;
-    /* font-size: var(--text-md); */
+    font-size: 0.7rem;
     line-height: 1.35;
     white-space: nowrap;
   }
