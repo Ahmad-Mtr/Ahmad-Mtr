@@ -14,30 +14,35 @@ const { items, title, url, className, position } = Astro.props as Props;
 ---
 
 <div class=` max-w-5xl space-y-6  ${className} `>
-  <div class="relative border border-default bg-ctp-crust px-6 max-sm:px-2 py-4 max-h-40">
+  <div
+    class="relative border border-default bg-ctp-crust px-6 max-sm:px-2 py-4 max-h-40"
+  >
     <!-- Title -->
     <h3
-    class=`absolute ${position === "right" ? "left-4" : "right-4"} top-0 -translate-y-1/2 rounded-xl border border-current bg-transparent px-4 py-1 uppercase tracking-tight text-xs font-mono text-ctp-sky`
+      class=`absolute ${position === "right" ? "left-4" : "right-4"} top-0 -translate-y-1/2 rounded-xl border border-current bg-transparent px-4 py-1 uppercase tracking-tight text-xs font-mono text-ctp-sky`
     >
-    {title}
-  </h3>
-  <!-- List -->
-    <ul class="grid grid-cols-3 gap-8 max-sm:gap-0 sm:grid-cols-3 md:grid-cols-3 ">
+      {title}
+    </h3>
+    <!-- List -->
+    <ul
+      class="grid grid-cols-3 gap-8 max-sm:gap-0 sm:grid-cols-3 md:grid-cols-3"
+    >
       {
         items.map((item) => (
           <li class="">
-            <a class="flex flex-col justify-center items-center gap-2 py-2 rounded-md hover:bg-ctp-base hover:outline hover:outline-1 hover:outline-ctp-overlay2 text-center w-32 h-full " href={item.url}>
-              
-                <Icon  class={'size-12'} name={item.icon} />
-                <span class="font-mono text-nowrap">{item.title}</span>
-              
+            <a
+              class="flex flex-col justify-center items-center gap-2 py-2 rounded-md hover:bg-ctp-base hover:outline hover:outline-1 hover:outline-ctp-overlay2 text-center w-32 h-full "
+              href={item.url}
+            >
+              <Icon class={"size-12"} name={item.icon} />
+              <span class="font-mono text-nowrap">{item.title}</span>
             </a>
           </li>
         ))
       }
     </ul>
   </div>
-  <p class="text-right text-sm">
+  <p class="text-right text-xs">
     <a
       class="text-ctp_txt2 font-medium hover:underline focus:text-ctp_sky hover:text-ctp_sky"
       href={url}
