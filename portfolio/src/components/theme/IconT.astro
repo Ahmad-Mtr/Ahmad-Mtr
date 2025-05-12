@@ -1,58 +1,72 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
-import { iconPaths } from '../IconPaths';
+import type { HTMLAttributes } from "astro/types";
+import { iconPaths } from "../IconPaths";
 
 interface Props {
-	icon: keyof typeof iconPaths;
-	color?: string;
-	gradient?: boolean;
-	size?: string;
-	tailwind?: string;
+  icon: keyof typeof iconPaths;
+  color?: string;
+  gradient?: boolean;
+  size?: string;
+  tailwind?: string;
 }
 
-const { color = 'currentcolor', gradient, icon, size, tailwind = '' } = Astro.props;
+const {
+  color = "currentcolor",
+  gradient,
+  icon,
+  size,
+  tailwind = "",
+} = Astro.props;
 const iconPath = iconPaths[icon];
 
-const attrs: HTMLAttributes<'svg'> = {};
-if (size) attrs.style = { '--size': size };
+const attrs: HTMLAttributes<"svg"> = {};
+if (size) attrs.style = { "--size": size };
 
-const gradientId = 'icon-gradient-' + Math.round(Math.random() * 10e12).toString(36);
+const gradientId =
+  "icon-gradient-" + Math.round(Math.random() * 10e12).toString(36);
 ---
 
 <svg
-	class=`fill-current ${tailwind}` 
-	xmlns="http://www.w3.org/2000/svg"
-	width="40"
-	height="40"
-	viewBox="0 0 256 256"
-	aria-hidden="true"
-	stroke={gradient ? `url(#${gradientId})` : color}
-	fill={gradient ? `url(#${gradientId})` : color}
-	{...attrs}
+  class=`fill-current ${tailwind}`
+  xmlns="http://www.w3.org/2000/svg"
+  width="40"
+  height="40"
+  viewBox="0 0 256 256"
+  aria-hidden="true"
+  stroke={gradient ? `url(#${gradientId})` : color}
+  fill={gradient ? `url(#${gradientId})` : color}
+  {...attrs}
 >
-	<g set:html={iconPath} />
-	{
-		gradient && (
-			<linearGradient
-				id={gradientId}
-				x1="23"
-				x2="235"
-				y1="43"
-				y2="202"
-				gradientUnits="userSpaceOnUse"
-			>
-				<stop stop-color="#A6E3A1" />
-				
-				<stop offset="1" stop-color="#89DCEB" />
-			</linearGradient>
-		)
-	}
+  <g set:html={iconPath} />
+  {
+    gradient && (
+      <linearGradient
+        id={gradientId}
+        x1="23"
+        x2="235"
+        y1="43"
+        y2="202"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#A6E3A1" />
+
+        <stop offset="1" stop-color="#89DCEB" />
+      </linearGradient>
+    )
+  }
 </svg>
 
 <style>
-	svg {
-		vertical-align: middle;
-		width: var(--size, 1em);
-		height: var(--size, 1em);
-	}
+  svg {
+    vertical-align: middle;
+    width: var(--size, 1em);
+    height: var(--size, 1em);
+  }
+
+  @media (max-width: 640px) {
+    svg {
+      width: var(--size, 0.75em); /* Smaller size for mobile */
+      height: var(--size, 0.75em);
+    }
+  }
 </style>

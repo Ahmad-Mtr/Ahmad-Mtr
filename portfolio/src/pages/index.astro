@@ -1,19 +1,14 @@
 ---
 import Skills from "../components/skills.astro";
 import SelectedWork from "../components/Selected-Work.astro";
-// import PrjktsGrid from "../components/theme/Prjkts-Grid.astro";
 import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
-// import Intro from "../components/intro.astro";
 import Showcase from "../components/showcase.astro";
 import Splash from "../components/splash.astro";
 import VNav from "../components/V-Nav.astro";
-// import Lamp from "../components/lamp.astro";
-// import { Icon } from "astro-icon/components";
 import "../styles/index.css";
 
 const { generator, site } = Astro;
-// const image = new URL("social.jpg", site);
 const title = "AhmadMtr | a software developer and a Designer 👨‍💻🎨";
 const description =
   "Want a cool-looking, and blazingly fast website | mobile App? You're in the right place!";
@@ -27,7 +22,7 @@ const description =
 >
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta name="generator" content={generator} />
 
@@ -38,7 +33,6 @@ const description =
     <meta property="og:title" content="Astro" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content={description} />
-    <!-- <meta property="og:image" content={image} /> -->
     <meta property="og:url" content={site} />
     <meta name="twitter:card" content="summary_large_image" />
 
@@ -74,19 +68,9 @@ const description =
     <Splash />
 
     <!-- main Content -->
-
-    <div class="space-y-24 px-8 py-16">
-      <!-- About -->
-      
-        <SelectedWork />
-      
-      <!-- <Intro /> -->
-      <!-- Prjkts -->
-      <!-- <PrjktsGrid/> -->
-
+    <div class="space-y-16 sm:space-y-24 px-4 sm:px-8 py-12 sm:py-16">
+      <SelectedWork />
       <Skills />
-      <!-- Blog -->
-      <!-- <Showcase /> -->
     </div>
     <Footer />
   </body>

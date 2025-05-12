@@ -14,28 +14,29 @@ const navItems: Array<NavItem> = [
 
 <header
   id="page-header"
-  class="absolute top-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 "
+  class="absolute top-0 z-20 flex w-full items-center justify-between border-b border-transparent px-6 md:px-8 py-4"
 >
-  <a class="flex items-center gap-4 hover:!text-default " href="/">
-   <h1 class="sr-only">Astro</h1>
-    <!-- <Icon name="logomark" class="size-10" /> -->
+  <a class="flex items-center gap-3 md:gap-4 hover:!text-default" href="/">
+    <h1 class="sr-only">AhmadMtr</h1>
     <img
-        src="/pfp.png"
-        class="w-12 h-12 outline outline-2 rounded-xl outline-ctp_overlay1"
-        alt="Ahmadmtr's Logo"
-      />
-    <h2 class="font-sans font-bold">AhmadMtr</h2>
-    <!-- <Icon name="wordmark" class="hidden h-4 sm:block" /> -->
+      src="/pfp.png"
+      class="w-10 h-10 sm:w-12 sm:h-12 outline outline-2 rounded-xl outline-ctp_overlay1"
+      alt="Ahmadmtr's Logo"
+    />
+    <h2 class="font-sans font-bold text-sm sm:text-base">AhmadMtr</h2>
   </a>
-  
-  <div class="">
-    <div class="flex items-center gap-12">
+
+  <div>
+    <div class="flex items-center gap-4 sm:gap-12 pr-2">
       <nav class="hidden sm:block">
-        <ul class="flex items-center gap-10 text-ctp_txt1 font-mono ">
+        <ul class="flex items-center gap-6 md:gap-10 text-ctp_txt1 font-mono">
           {
             navItems.map(({ title, url }) => (
               <li>
-                <a class="text-sm font-base hover:underline hover:text-ctp_sky" href={url}>
+                <a
+                  class="text-sm font-base hover:underline hover:text-ctp_sky"
+                  href={url}
+                >
                   {title}
                 </a>
               </li>
@@ -46,12 +47,12 @@ const navItems: Array<NavItem> = [
       <button
         id="open-nav-button"
         type="button"
-        class="btn sm:hidden"
+        class="btn md:hidden"
         aria-label="Navigation"
       >
-        <Icon name="mdi:menu" class="size-8" />
+        <Icon name="mdi:menu" class="size-6" />
       </button>
-      <ThemeSwitcher />
+      <!-- <ThemeSwitcher /> -->
     </div>
     <div id="menu-modal" class="modal hidden" aria-hidden="true">
       <div class="fixed inset-0 bg-default px-8 py-4 text-default">
@@ -67,7 +68,11 @@ const navItems: Array<NavItem> = [
             </button>
           </header>
           <div class="flex justify-center">
-            <!-- <Icon name="logomark" class="size-16" /> -->
+            <img
+              src="/pfp.png"
+              class="w-16 h-16 outline outline-2 rounded-xl outline-ctp_overlay1"
+              alt="Ahmadmtr's Logo"
+            />
           </div>
           <nav>
             <ul class="flex flex-col">
@@ -139,7 +144,7 @@ const navItems: Array<NavItem> = [
 <style>
   .fixed-header {
     @apply fixed bottom-auto top-0;
-    @apply border-default bg-ctp-mantle bg-opacity-50 backdrop-blur-md  text-default;
+    @apply border-default bg-ctp-mantle bg-opacity-50 backdrop-blur-md text-default;
   }
   .modal.is-open {
     @apply block;

@@ -1,61 +1,84 @@
 ---
-import {  Icon} from "astro-icon/components";
+import { Icon } from "astro-icon/components";
 ---
+
 <div
-  class="w-16 text-ctp-txt fixed bottom-0 left-0  z-50 flex flex-col  justify-center py-8 px-[50px] max-md:px-[15px]   "
+  class="w-12 sm:w-16 text-ctp-txt fixed bottom-0 left-0 z-50 flex flex-col justify-center py-4 sm:py-8 px-3 sm:px-[50px] md:px-[50px] pointer-events-auto"
+  style="position: fixed; bottom: 0; left: 0;"
 >
-  <ul class="w-full flex flex-col space-y-6  items-start">
+  <ul class="w-full flex flex-col space-y-4 sm:space-y-6 items-start">
     <li>
-      <a href="https://github.com/Ahmad-Mtr" class="hover:text-ctp-sky hoverable-icon">
-        <Icon id={'hoverable-icon'}
+      <a
+        href="https://github.com/Ahmad-Mtr"
+        class="hover:text-ctp-sky hoverable-icon"
+      >
+        <Icon
+          id={"hoverable-icon"}
           name="mdi:github"
-          class="text-ctp-text  hover:text-ctp-sky transition-transform duration-300 transform group-hover:-translate-y-2 max-md:size-5"
+          class="text-ctp-text hover:text-ctp-sky transition-transform duration-300 transform size-5 sm:size-6"
           size={24}
         />
       </a>
     </li>
     <li>
-      <a href="https://t.me/AhmadMtr" class=" "
-        ><Icon id={'hoverable-icon'}
+      <a href="https://t.me/AhmadMtr" class="hoverable-icon"
+        ><Icon
+          id={"hoverable-icon"}
           name="ic:round-telegram"
-          class="text-ctp-text  hover:text-ctp-sky transition-transform duration-300 transform group-hover:-translate-y-2 max-md:size-5"
+          class="text-ctp-text hover:text-ctp-sky transition-transform duration-300 transform size-5 sm:size-6"
           size={24}
         /></a
       >
     </li>
     <li>
-      <a href="https://www.youtube.com/@ahmadmatar7549" class="hover:text-ctp-sky hoverable-icon"
-        ><Icon id={'hoverable-icon'}
+      <a
+        href="https://www.youtube.com/@ahmadmatar7549"
+        class="hover:text-ctp-sky hoverable-icon"
+        ><Icon
+          id={"hoverable-icon"}
           name="mdi:youtube"
-          class="text-ctp-text  hover:text-ctp-sky transition-transform duration-300 transform group-hover:-translate-y-2 max-md:size-5"
+          class="text-ctp-text hover:text-ctp-sky transition-transform duration-300 transform size-5 sm:size-6"
           size={24}
         /></a
       >
     </li>
     <li>
-      <a href="https://discord.com/users/ahmadmatar" class="hover:text-ctp-sky hoverable-icon"
-        ><Icon id={'hoverable-icon'}
+      <a
+        href="https://discord.com/users/ahmadmatar"
+        class="hover:text-ctp-sky hoverable-icon"
+        ><Icon
+          id={"hoverable-icon"}
           name="ic:round-discord"
-          class="text-ctp_txt1 hover:text-ctp_sky"
+          class="text-ctp_txt1 hover:text-ctp_sky size-5 sm:size-6"
           size={24}
         /></a
       >
     </li>
   </ul>
-  <br />
-  
-  <div id="svg_container" class="w-full ">
-    <svg width="24" xmlns="http://www.w3.org/2000/svg" class="max-md:h-28  max-md:mb-12">
-        <line x1="12" y1="0" x2="12" y2="170" style="stroke:#6C7086;stroke-width:2" />
-      </svg>
+
+  <div class="w-full h-12 md:h-0"></div>
+
+  <div id="svg_container" class="w-full hidden">
+    <svg width="24" xmlns="http://www.w3.org/2000/svg" class="h-28">
+      <line
+        x1="12"
+        y1="0"
+        x2="12"
+        y2="170"
+        style="stroke:#6C7086;stroke-width:2"></line>
+    </svg>
   </div>
-  
 </div>
 <style>
-  
   #hoverable-icon:hover {
-    /* @apply hover:text-ctp-mauve; */
-    transform:  translateY(-25%);
+    transform: translateY(-25%);
     transition: 0.3s ease-in-out;
+  }
+
+  /* Ensure the nav stays fixed regardless of content changes */
+  div[class*="fixed"] {
+    position: fixed !important;
+    transform: none !important;
+    will-change: auto !important;
   }
 </style>
